@@ -1,0 +1,36 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+/*color,font-family and font-size*/
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+
+/*border*/
+p {
+    border: 2px solid green;
+}
+
+/*padding*/
+p {
+    padding: 30px;
+}
+
+/*margin*/
+p {
+    margin:50px;
+}
+

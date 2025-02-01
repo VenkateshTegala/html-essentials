@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML image mapping</title>
+    </head>
+    <body>
+        <img src="images/things_1.png" alt="Things" usemap="#workmap">
+    </body>
+    <map name="workmap">
+        <area shape="rect" alt="Computer" coords="34,44,270,350" href="https://en.wikipedia.org/wiki/Computer#:~:text=A%20computer%20is%20a%20machine,of%20operations%20known%20as%20programs.">
+        <area shape="rect" alt="Mobile" coords="290,172,333,250" href="https://en.wikipedia.org/wiki/Mobile_phone">
+       
+        <!--shape="poly" also exists but so may coordinates-->
+    </map>
+    <br><br>
+    <!--map basic with javascript-->
+    <img src="images/things_1.png" alt="Things" usemap="#workmap">
+    <map name="javascript_map">
+        <area shape="circle" alt="coffee" coords="767,700,44" href="https://en.wikipedia.org/wiki/Coffee"
+        onclick="myFunction()">
+    </map>
+
+    <script>
+        function myFunction() {
+            alert("You clicked the coffee link !")
+        }
+    </script>
+</html>
