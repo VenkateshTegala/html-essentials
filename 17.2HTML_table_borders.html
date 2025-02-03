@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML table borders</title>
+    </head>
+    <!--To avoid having double borders set the CSS bordercollapse property to collapse.-->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            /*border-radius: 10px*/
+        }
+        th, td {
+            background-color: aqua;
+        }
+    </style>
+    <body>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Place</th>
+            </tr>
+            <tr>
+                <td>Rohit</td>
+                <td>34</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>Virat</td>
+                <td>32</td>
+                <td>Banglore</td>
+            </tr>
+        </table>
+    </body>
+</html>
