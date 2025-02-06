@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML div element</title>
+        <style>
+            .div2 {
+                width: 300px;
+                margin: auto;
+            }
+            .container {
+                width: 100%;
+                overflow: auto;
+            }
+            .container div{
+                width: 33%;
+                float: left;
+            }
+            .inline{
+                width: 30%;
+                display: inline-block;
+            }
+            .flex {
+                display: flex;
+            }
+            .flex > div{
+                width: 33%;
+            }
+            .grid_container{
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+            }
+        </style>
+    </head>
+    <body>
+        Lorem Ipsum <div>I am a div</div> dolor sit amet.
+
+        <!--<div> as a container-->
+        <div class="div2">
+            <h2>London</h2>
+            <p>London is the capital city of England</p>
+        </div>
+        <br><br>
+
+        <!--Multiple <div> elements-->
+        <div>
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 9 million inhabitants.</p>
+        </div>
+            
+        <div>
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 700,000 inhabitants.</p>
+        </div>
+            
+        <div>
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has over 4 million inhabitants.</p>
+        </div>
+
+        <!--Aligning div elements side by side-->
+
+        <div class="container">
+            <div>
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London has over 9 million inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Oslo</h2>
+                <p>Oslo is the capital city of Norway.</p>
+                <p>Oslo has over 700,000 inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Rome</h2>
+                <p>Rome is the capital city of Italy.</p>
+                <p>Rome has over 4 million inhabitants.</p>
+            </div>
+        </div>
+
+        <!--inline block-->
+        <p>INLINE BLOCK</p>
+        <div class="inline">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 9 million inhabitants.</p>
+        </div>
+            
+        <div class="inline">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 700,000 inhabitants.</p>
+        </div>
+            
+        <div class="inline">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has over 4 million inhabitants.</p>
+        </div>
+
+        <div class="inline">
+            <h2>Delhi</h2>
+            <p>Delhi is the capital city of India.</p>
+            <p>Delhi has over 700,000 inhabitants.</p>
+        </div>
+            
+        <div class="inline">
+            <h2>colombo</h2>
+            <p>colombo is the capital city of sri lanka.</p>
+            <p>colombo has over 4 million inhabitants.</p>
+        </div>
+        
+        <!--Flex-->
+        <p>FLEX</p>
+        <div class="flex">
+            <div>
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London has over 9 million inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Oslo</h2>
+                <p>Oslo is the capital city of Norway.</p>
+                <p>Oslo has over 700,000 inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Rome</h2>
+                <p>Rome is the capital city of Italy.</p>
+                <p>Rome has over 4 million inhabitants.</p>
+            </div>
+
+            <div class>
+                <h2>Delhi</h2>
+                <p>Delhi is the capital city of India.</p>
+                <p>Delhi has over 700,000 inhabitants.</p>
+            </div>
+                
+            <div class>
+                <h2>colombo</h2>
+                <p>colombo is the capital city of sri lanka.</p>
+                <p>colombo has over 4 million inhabitants.</p>
+            </div>
+        </div>
+
+        <!--Grid-->
+        <p>GRID</p>
+        <div class="grid_container">
+            <div>
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London has over 9 million inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Oslo</h2>
+                <p>Oslo is the capital city of Norway.</p>
+                <p>Oslo has over 700,000 inhabitants.</p>
+            </div>
+                
+            <div>
+                <h2>Rome</h2>
+                <p>Rome is the capital city of Italy.</p>
+                <p>Rome has over 4 million inhabitants.</p>
+            </div>
+
+            <div class>
+                <h2>Delhi</h2>
+                <p>Delhi is the capital city of India.</p>
+                <p>Delhi has over 700,000 inhabitants.</p>
+            </div>
+                
+            <div class>
+                <h2>colombo</h2>
+                <p>colombo is the capital city of sri lanka.</p>
+                <p>colombo has over 4 million inhabitants.</p>
+            </div>
+        </div>
+    </body>
+</html>
