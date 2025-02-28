@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML form elements</title>
+    </head>
+    <body>
+        <form>
+            <h2>Text</h2>
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname"> <br> <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lname"> <br>
+
+            <h2>Password :</h2>
+            <label for="user_name">User Name :</label>
+            <input type="text" id="user_name" name="user_name"
+            placeholder="Enter your name"> <br><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">  <br>
+
+            <h2>Submit</h2>
+            <input type="submit" value="submit">
+
+            <h2>Reset</h2>
+            <input type="reset" value="reset">
+
+            <h2>Radio</h2>
+            <p>Choose your Favourite Language:</p>
+            <input type="radio" id="html" name="fav_lang">
+            <label for="html">HTML</label> <br>
+            <input type="radio" id="css" name="fav_lang">
+            <label for="css">CSS</label> <br>
+            <input type="radio" id="js" name="fav_lang">
+            <label for="js">JS</label> <br>
+
+            <h2>CheckBox</h2>
+            <p>Choose your fav car:</p>
+            <input type="checkbox" id="bmw" name="fav_car">
+            <label for="bmw">BMW</label> <br>
+            <input type="checkbox" id="mercedes" name="mercedes">
+            <label for="mercedes">Mercedes</label> <br>
+            <input type="checkbox" id="lambo" name="fav_car">
+            <label for="lambo">Lamborigini</label> <br>
+
+            <h2>Button</h2>
+            <input type="button" onclick="alert('Hello world !')" value="click me">
+
+            <h2>Color</h2>
+            <label for="fav_color">Select your favourite color :</label>
+            <input type="color" id="fav_color" name="fav_color"> <br>
+
+            <h2>Date</h2>
+            <label for="dateofbirth">Enter your date of birth:</label><br>
+            <input type="date" id="dateofbirth" name="dateofbirth">
+
+            <h2>Min or Max for date</h2>
+            <label for="minmaxdate">Enter your date of birth:</label><br>
+            <input type="date" id="minmaxdate" name="minmaxdate" min="2000-01-01" max="2025-02-10">
+
+            <h2>Email</h2>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+
+            <h2>File</h2>
+            <label for="file">Drag you file :</label>
+            <input type="file" id="file" name="file">
+
+            <h2>Number</h2>
+            <label for="number">Enter a number (between 1 to 50)</label>
+            <input type="number" id="number" name="number" min="1" max="50">
+
+            <h2>Range</h2>
+            <label for="vol">Volume between 0 to 50</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <input type="submit" value="submit">
+
+            <h2>Search</h2>
+            <label for="searching">Search Google :</label>
+            <input type="search" id="searching" name="searching">
+        </form>
+    </body>
+</html>
