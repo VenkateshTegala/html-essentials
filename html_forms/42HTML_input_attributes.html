@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML input attributes</title>
+    </head>
+    <body>
+        <form>
+            <h2>The value attribute</h2>
+            <!--for default values-->
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname" value="Tony"> <br><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lname" value="Stark">
+
+            <h2>The readonly attribute</h2>
+            <label for="f1name">First Name :</label>
+            <!--The word tony cannot be changed its only for eading-->
+            <input type="text" id="f1name" name="fname" value="Tony" readonly> <br><br>
+            <label for="l1name">Last Name :</label>
+            <input type="text" id="l1name" name="lname" value="Stark">
+
+            <h2>The disable attribute</h2>
+            <label for="f2name">First Name :</label>
+            <!--If you check the output in browser then it will be clear-->
+            <input type="text" id="f2name" name="fname" value="Tony" disabled> <br><br>
+            <label for="l2name">Last Name :</label>
+            <input type="text" id="l2name" name="lname" value="Stark">
+
+            <h2>Size attribute</h2>
+            <label for="f3name">First Name :</label>
+            <input type="text" id="f3name" name="fname" value="Tony" size="80"> <br><br>
+            <label for="l3name">Last Name :</label>
+            <input type="text" id="l3name" name="lname" value="Stark" size="4">
+
+            <h2>Maxlengtgh attribute</h2>
+            <label for="bank">Enter bank name:</label>
+            <input type="text" id="bank" name="bank"> <br><br>
+            <label for="pin">Pin :</label>
+            <input type="password" id="pin" name="pin" maxlength="4">
+
+            <h2>Min and Max att</h2>
+            <p>Already done</p>
+
+            <h2>Multiple Attribute</h2>
+            <label for="files">Select files :</label>
+            <input type="file" id="files" name="files" multiple>
+
+            <h2>Placeholder attribute :</h2>
+            <label for="f4name">First Name :</label>
+            <input type="text" id="f4name" name="f4name" placeholder="Enter your name"> <br> <br>
+            <label for="l4name">Last Name :</label>
+            <input type="text" id="l4name" name="l4name" placeholder="Enter your last name">
+
+            <h2>Required Attribute</h2>
+            <label for="f5name">First Name :</label>
+            <input type="text" id="f5name" name="f5name" placeholder="Enter your name"> <br> <br>
+            <label for="l5name">Last Name :</label>
+            <input type="text" id="l5name" name="l5name" placeholder="Enter your last name"> <br> <br>
+            <label for="age">Enter your age :</label>
+            <input type="number" id="age" name="age" required>
+            <input type="submit" value="submit">
+
+            <h2>Autofocus attribute</h2>
+            <label for="f6name">First Name :</label>
+            <input type="text" id="f6name" name="f5name" placeholder="Enter your name" autofocus> <br> <br>
+            <label for="l6name">Last Name :</label>
+            <input type="text" id="l6name" name="l5name" placeholder="Enter your last name"> <br> <br>
+
+            <h2>Autocomplete attribute</h2>
+            <label for="f7name">First Name :</label>
+            <input type="text" id="f7name" name="f7name" placeholder="Enter your name" autocomplete="name"> <br> <br>
+            <label for="l7name">Last Name :</label>
+            <input type="text" id="l7name" name="l7name" placeholder="Enter your last name"> <br> <br>
+        </form>
+    </body>
+</html>
