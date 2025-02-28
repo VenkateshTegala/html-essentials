@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML form attributes</title>
+    </head>
+    <body>
+        <!--
+        if target is::
+        _blank : new window
+        _self : current window
+        _parent : in parent frame
+        _top : full body of the window
+        -->
+        <form action="" target="_blank">
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lname"> <br>
+            
+            <input type="submit" value="submit">
+        </form>
+
+        <h2>Auto Complete</h2>
+        <form action="" autocomplete="on">
+            <label for="f2name">First Name :</label>
+            <input type="text" id="f2name" name="fname"> <br>
+            <label for="l2name">Last Name :</label>
+            <input type="text" id="l2name" name="lname"> <br>
+            
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
